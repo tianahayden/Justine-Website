@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Noto Serif KR', sans-serif;
+}
+
+.header {
+    height: 50vw;
+    width: 100%;
+    background: url(typewriter.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #303030;
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+    grid-template-rows: 10% 40% 40% 10%;
+    grid-template-columns: 30% 30% 30% 5%;
+    grid-template-areas: 
+        '. . . .'
+        '. . header-text .'
+        '. . subheader .'
+        '. . . .'
+}
+
+.header-text {
+    align-self: center;
+    font-size: 8vw;
+    grid-area: header-text;
+}
+
+.subheader {
+    align-self: center;
+    grid-area: subheader;
+    font-size: 2vw;
+}
+
+.body-content {
+    display: grid;
+
+}
+
+.body-item{
+    border: 3px solid #303030;
+    padding: 2vw;
+    margin: 2vw;
+}
