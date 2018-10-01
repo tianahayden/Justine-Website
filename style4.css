@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding-left: 10%;
+    padding-right: 50%;
+    padding-top: 5%;
+    background: url(darktypewriter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #c09F80;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header h1 {
+    font-size: 8vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-shadow: 2px 4px #76323F;
+}
+
+.header p {
+    margin-bottom: 4vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    margin-bottom: 2vw;
+    text-align: center;
+}
+
+.line {
+    border: 1px solid #76323F;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+
+.menu p:hover {
+    font-weight: bold;
+    text-shadow: 1px 2px #76323F;
+}
+
+.about {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about img {
+    height: 50vw;
+    opacity: .9;
+    margin-bottom: 2vw;
+}
+
+
