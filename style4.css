@@ -22,6 +22,11 @@ body {
     text-shadow: 2px 4px #76323F;
 }
 
+.header h1:hover {
+    font-weight: bold;
+    text-shadow: 1px 2px #76323F;
+}
+
 .header p {
     margin-bottom: 4vw;
     font-family: 'Open Sans', sans-serif;
@@ -48,13 +53,18 @@ body {
     text-shadow: 1px 2px #76323F;
 }
 
-.about {
+.intro {
     text-align: center;
     justify-content: center;
     font-family: 'Open Sans', sans-serif;
 }
 
-.about img {
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.intro img {
     height: 50vw;
     opacity: .9;
 }
@@ -83,4 +93,38 @@ body {
     text-shadow: 2px 2px #76323F;
 }
 
+.fa-angle-double-left {
+    font-size: 2vw;
+}
 
+/* .menu-section {
+    margin: 5vw;
+    padding: 3vw;
+    background-color: #76323F;
+    opacity: .8;
+    border: 2px solid black;
+    border-style: groove;
+    border-radius: 5%;
+} */
+
+.menu-section {
+    padding-left: 5vw;
+    padding-bottom: 5vw;
+}
+
+.menu-section .fa-angle-double-left:hover{
+    text-shadow: 2px 2px #76323F;
+}
+
+.writing-clips {
+    display: flex;
+    justify-content: space-between;
+}
+
+.writing-clips-wrapper .fas {
+    font-size: 4vw;
+}
+
+.writing-clips-wrapper .far {
+    font-size: 4vw;
+}
