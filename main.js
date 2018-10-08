@@ -2,7 +2,7 @@ document.getElementById('about-onclick').style.display = 'none';
 document.getElementById('writing-onclick').style.display = 'none';
 document.getElementById('services-onclick').style.display = 'none';
 document.getElementById('contact-onclick').style.display = 'none';
-
+ 
 function switchSection(id) {
     document.getElementById('intro').style.display = 'none';
     document.getElementById('about-onclick').style.display = 'none';
